@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" class="">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body style="padding-right: 0px;">
+        <div class="container">
+            <div class="entrada">
+                <h1 class="logo"><img class="vector" src="imagenes/Vector.png" alt="Logo de nuestro challenger"></h1>
+                <input type="text" id="ingreseTexto" class="ingrese-texto" placeholder="Ingrese el texto aqui"></input>
+                <h2 class="limite"><span>0</span>/40</h2>
+                <div class="frame-1">
+                        <table>
+                            <tr >
+                                <td class="simbolo"><img src="imagenes/simbolo_exclamacion.svg"></img></td>
+                                <td class="textof1">Solo letras minúsculas y sin acentos</td>
+                            </tr>
+                        </table>
+                </div>  
+                
+                <div class="input_botones">
+                        <input class="boton-encriptar" id="botonEnc" type="button" value="Encriptar">
+                        <input class="boton-desencriptar" id="botonDes" type="button" value="Desencriptar">
+                </div>
+            </div>
+
+            <div class="rectangulo" id="rectangulo">
+                <form class="form-rect">
+                    <div class="textoEnc">
+                        <textarea class="texto-salida" id="textoSalida" style="color: rgb(73, 80, 87);"></textarea>
+                        <input class="botonCop" id="botonCop" type="button" value="Copiar">
+                    </div>
+                    <div class="frame-5" id="frame5">
+                        <iframe class="iframe" src="https://giphy.com/embed/ohONS2y8GTDoI" frameBorder="0" allowFullScreen></iframe>
+                        <p class="f5-t1">Ningún mensaje fue encontrado</p>
+                        <p class="f5-t2">Ingresa el texto que desees encriptar o desencriptar</p>
+                    </div>
+                </form>    
+            </div>
+        </div>
+    </body>
+    <script src="./challenger.js"></script>
+</html>
+
