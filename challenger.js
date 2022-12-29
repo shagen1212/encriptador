@@ -90,6 +90,7 @@ function copiar() {
         title: "Texto copiado",
         showConfirmButton: false,
         timer: 1500,
+        color: 'red'
     });
 }
 
